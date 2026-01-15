@@ -10,14 +10,14 @@ const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400","700"], d
 // Reusable nav item: yellow underline on hover + white tab that merges with panel.
 // Panel width = trigger width (exactly around the word).
 function NavItem({
-  label,
-  href,
-  items,
-}: {
-  label: string;
-  href: string;
-  items?: { name: string; slug: string }[] | null;
-}) {
+    label,
+    href,
+    items,
+  }: {
+    label: string;
+    href: string;
+    items?: { name: string; slug: string }[] | null;
+  }) {
   return (
     <div className="relative inline-block group">
       {/* Trigger: black text + yellow underline */}
