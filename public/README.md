@@ -20,7 +20,6 @@ IZZA is a full-stack e-commerce application built with **Next.js (App Router)**,
 - Other: Heroicons, Next Image optimization
 
 ## Quickstart
-```bash
 git clone https://github.com/<your-username>/izza-ecommerce.git
 cd izza-ecommerce
 npm install
@@ -31,15 +30,14 @@ npx prisma migrate dev
 
 # Start development server
 npm run dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Environment Variables
 Create a `.env` file (or copy from `.env.example`) with the following:
-```
+
 DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/izza
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 STRIPE_SECRET_KEY=sk_test_xxx
 STRIPE_WEBHOOK_SECRET=whsec_xxx
-```
+
