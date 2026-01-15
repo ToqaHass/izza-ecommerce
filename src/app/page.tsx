@@ -1,7 +1,24 @@
 import Image from "next/image";
+import Link from "next/link";
+import Hero from "./components/Hero";
+import Category from "./components/Category";
+
 
 export default function Home() {
   return (
+    <main>
+      <Hero/>
+      <Category/>
+      {/*<div className="p-4 text-yellow-500">yellow-500?</div>
+<div className="p-4 text-izza-yellow">izza-yellow?</div>
+<div className="p-4 text-red-500">red-500?</div>
+<Link href="/" className={` text-6xl font-bold text-[#EAB308] tracking-wide`}>
+  IZZA
+  </Link>*/}
+
+    </main>
+
+    /*
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
@@ -99,5 +116,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    */
   );
 }

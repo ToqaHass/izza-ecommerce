@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,7 +11,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-izza-black: #000000;
+  --color-izza-mint: #ECF4F2;
+  --color-yellow-500: #eab308;
+  --color-yellow-600: #ca8a04;
+  --color-izza-yellow: #EAB308;
+  --color-yellow-500: #eab308;
+  --color-yellow-600: #ca8a04;
+  --color-red-500: #ef4444;
+  --color-white: #ffffff; 
+
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -24,3 +38,5 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
